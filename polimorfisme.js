@@ -12,7 +12,7 @@ class Mahasiswa extends Orang {
     }
 }
 
-class Dosen extends Orang {
+class Design extends Orang {
     tampilkanPeran() {
         console.log("Peran: Graphic Designer");
     }
@@ -21,8 +21,8 @@ class Dosen extends Orang {
 // Menggunakan polimorfisme
 const orang1 = new Orang();
 const mahasiswa1 = new Mahasiswa();
-const dosen1 = new Dosen();
+const design1 = new Design();
 
-orang1.tampilkanPeran();    // Output: Peran: Orang biasa
+orang1.tampilkanPeran();    // Output: Peran: Orang Kaya
 mahasiswa1.tampilkanPeran(); // Output: Peran: Mahasiswa
-dosen1.tampilkanPeran();     // Output: Peran: Dosen
+design1.tampilkanPeran();     // Output: Peran: Graphic Designer
